@@ -72,7 +72,7 @@ function showWinner(winner , computerChoice) {
         scoreboard.computer++;
         result.innerHTML= `
         <h1 class= "text-lose">You Lose</h1>
-        <i class="fa fa-${computerChoice} choice"></i>
+        <i class="fas fa-hand-${computerChoice} choice"></i>
         <p>Computer Choose ${computerChoice} </p>
          `
     }else{
